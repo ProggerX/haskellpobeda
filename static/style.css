@@ -1,0 +1,31 @@
+* {
+  font-family: Impact;
+  background-color: purple;
+  color: white;
+}
+h1 {
+  font-size: 4em;
+}
+h2 {
+  font-size: 1.5em;
+}
+p {
+  font-size: 1em;
+}
+body {
+  width: 40%;
+  margin: auto;
+}
+.meme {
+  width: 100%;
+  margin-top: 20px;
+}
+.logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.logo img {
+  width: 300px;
+  height: 200px;
+}

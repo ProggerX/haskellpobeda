@@ -1,0 +1,19 @@
+cabal-version:      3.0
+name:               haskellpobeda
+version:            0.1.0.0
+license:            GPL-3.0-only
+license-file:       LICENSE
+author:             ProggerX
+maintainer:         x@proggers.ru
+category:           Web
+build-type:         Simple
+
+common warnings
+    ghc-options: -Wall
+
+executable haskellpobeda
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    base ^>=4.19.2.0, scotty, blaze-html, text, wai-middleware-static
+    hs-source-dirs:   app
+    default-language: GHC2021
