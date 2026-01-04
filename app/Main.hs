@@ -22,7 +22,7 @@ main =
         body $ do
           div ! class_ "logo" $ img ! src "/static/haskell.png"
           h1 "ХАСКЕЛЬ >>= ПОБЕДА!"
-          h2 "Почему 2025 -- очередной $ год хаскельпобеды?"
+          h2 "Почему 2026 -- очередной $ год хаскельпобеды?"
           (p . ol . mconcat . map li)
             [ "Declarative . (statically typed) . code"
             , "Enjoy long-term maintainable software you can rely on"
